@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Mynerve&family=Satisfy&display=swap');
+
+:root {
+  --primary-color: #5aa6a3;
+  --bg-color: #8dc3c7;
+  --font-color: #dffbfc;
+  --bg: #0bffff;
+  --font-style: 'Caveat', cursive;
+  --font-v2: 'Mynerve', cursive;
+  --font-h: 'Satisfy', cursive;
+}
+
+.navbar {
+  background-color: var(--bg-color);
+}
+
+
+
+.brand {
+  font-family: var(--font-style);
+  font-size: 2em;
+  font-weight: 600;
+}
+.container .navbar-brand {
+  font-family: 'Merriweather Sans';
+  font-size: 18px;
+  font-weight: 400;
+  color: snow;
+}
+
+.nav-item {
+  font-family: 'Merriweather Sans';
+  font-size: 15px;
+  font-weight: 400;
+  color: snow;
+}
+
+
+tr,
+th,
+td {
+  border: 1px solid #111;
+  padding: 5px;
+}
+
